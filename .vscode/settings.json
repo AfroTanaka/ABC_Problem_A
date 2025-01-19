@@ -1,0 +1,9 @@
+{
+    "cSpell.words": [
+        "aeiou"
+    ],
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp"
+    }
+}
