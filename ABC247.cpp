@@ -4,7 +4,6 @@ using namespace std;
 int main()
 {
     string s;
-    int n;
-    cin >> n >> s;
-    cout << s.at(n - 1) << endl;
+    cin >> s;
+    cout << '0' << s.at(0) << s.at(1) << s.at(2) << endl;
 }
