@@ -3,6 +3,6 @@
 
 int main()
 {
-    printf("INT_MAX in c : %d\n", INT_MAX);
-    return (0);
+    printf("%zu\n", sizeof(long long));
+    printf("%zu\n", sizeof(double));
 }
