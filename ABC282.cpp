@@ -3,10 +3,8 @@ using namespace std;
 
 int main()
 {
-    string s = "A";
+    string s = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     int n;
     cin >> n;
-    for (int i = 1; i < n; i++)
-        s += s.at(0) + i;
-    cout << s << endl;
+    cout << string_view(s).substr(0, n) << endl;;
 }
